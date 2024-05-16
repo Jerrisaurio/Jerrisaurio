@@ -1,16 +1,27 @@
-### Hi there 👋
+# Proyecto Increíble
 
-<!--
-**Jerrisaurio/Jerrisaurio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Bienvenido a mi proyecto increíble! Aquí encontrarás animaciones y diseños llamativos creados con HTML, CSS y JavaScript.
 
-Here are some ideas to get you started:
+## Animación de Caja
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+En este ejemplo, utilizamos CSS para animar una caja cuando se hace clic en el botón.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animación de Caja</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mi Proyecto</h1>
+    <div class="box" id="animatedBox"></div>
+    <button onclick="animateBox()">¡Haz clic para animar!</button>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
